@@ -1,0 +1,91 @@
+{
+  "changeName": "integrate-ide-for-short-exercises",
+  "schemaName": "spec-driven",
+  "planningHome": {
+    "kind": "repo",
+    "root": "/home/rglepe/projects/platform-learning",
+    "changesDir": "/home/rglepe/projects/platform-learning/openspec/changes",
+    "defaultSchema": "spec-driven"
+  },
+  "changeRoot": "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises",
+  "artifactPaths": {
+    "proposal": {
+      "outputPath": "proposal.md",
+      "resolvedOutputPath": "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/proposal.md",
+      "existingOutputPaths": [
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/proposal.md"
+      ]
+    },
+    "specs": {
+      "outputPath": "specs/**/*.md",
+      "resolvedOutputPath": "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/specs/**/*.md",
+      "existingOutputPaths": [
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/specs/code-execution-service/spec.md",
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/specs/exercise-persistence/spec.md",
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/specs/ide-exercise-type/spec.md",
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/specs/ide-integration/spec.md"
+      ]
+    },
+    "design": {
+      "outputPath": "design.md",
+      "resolvedOutputPath": "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/design.md",
+      "existingOutputPaths": [
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/design.md"
+      ]
+    },
+    "tasks": {
+      "outputPath": "tasks.md",
+      "resolvedOutputPath": "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/tasks.md",
+      "existingOutputPaths": [
+        "/home/rglepe/projects/platform-learning/openspec/changes/integrate-ide-for-short-exercises/tasks.md"
+      ]
+    }
+  },
+  "isComplete": true,
+  "applyRequires": [
+    "tasks"
+  ],
+  "nextSteps": [
+    "All planning artifacts are complete; review tasks before implementation."
+  ],
+  "actionContext": {
+    "mode": "repo-local",
+    "sourceOfTruth": "repo",
+    "planningArtifacts": [
+      "proposal",
+      "design",
+      "specs",
+      "tasks"
+    ],
+    "linkedContext": [],
+    "allowedEditRoots": [
+      "/home/rglepe/projects/platform-learning"
+    ],
+    "requiresAffectedAreaSelection": false,
+    "constraints": [
+      "Repo-local change artifacts and implementation edits are scoped to this project."
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "proposal",
+      "outputPath": "proposal.md",
+      "status": "done"
+    },
+    {
+      "id": "design",
+      "outputPath": "design.md",
+      "status": "done"
+    },
+    {
+      "id": "specs",
+      "outputPath": "specs/**/*.md",
+      "status": "done"
+    },
+    {
+      "id": "tasks",
+      "outputPath": "tasks.md",
+      "status": "done"
+    }
+  ]
+}
