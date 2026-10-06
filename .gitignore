@@ -1,0 +1,38 @@
+# Dependencies
+/node_modules/
+/platform-frontend/node_modules/
+/platform-backend/.mvn/
+/platform-backend/target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+/dist/
+/build/
+/out/
+/coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Miscellaneous
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
